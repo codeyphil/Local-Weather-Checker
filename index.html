@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet' type='text/css'>   
+<link href='main.css' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+<div class="container-fluid">
+    
+    <div id="page-header">
+        <h1>Free Code Camp Zipline</h1>
+      <span class="location"><b>Local Weather For:</b> </span><span id="cityInfo" class="location"></span>
+      <p id="lastUpdate"><u></u></p>
+    </div>
+     
+     <div id="tempHolder">
+       <p id="hoverMessage"></p>
+       <img id="weatherThumb">
+       <span id = "tempInfo" data-measure = "F"></span><br><span id="feelsLike" class="windConditions"></span><span id="conditionInfo" class="windConditions"></span>
+     </div>
+     
+     <div id="weatherInfo">
+         
+         <p id="precipitation"></p>
+         <p id="windInfo"></p>
+     </div>
+      <div id="showMore">
+        <a href="#" id="openMore"><p><b>Click to see more info.</b></p></a>  
+      </div>
+     <div id="additionalInfo">
+       <span id="humidity"></span><span id="cloudCover"></span><br>
+       <span id="uvIndex" class="indexes"></span><span id="heatIndex" class="indexes"></span>
+     </div>
+ </div>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
